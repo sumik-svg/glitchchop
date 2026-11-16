@@ -48,7 +48,7 @@ The system reverb is turned off at startup. MIDI clock (start/stop + 24 ppqn) ca
 ## Parameters (PARAMETERS > GLITCHCHOP)
 
 - **loop select** — one of the 15 preset loops, or "custom file". Selecting a preset also sets the tick tempo to that loop's BPM.
-- **sample (custom)** — any WAV file of your own. 48 kHz files are recommended; other sample rates are compensated automatically at playback, so loops still close seamlessly at the correct pitch and speed.
+- **sample (custom)** — any WAV file of your own. 48 kHz files are recommended; other sample rates are compensated automatically at playback, so loops still close seamlessly at the correct pitch and speed.You can also swap samples freely: replace any file in data/ with your own loop (keep the same filename and it is picked up as that preset), or load any WAV file via PARAMETERS > sample (custom) without replacing anything.
 - **mix (dry>glitch)**, **glitch amount**, **reverse amount (E3)**
 - **tick tempo** — the tempo of the 16th-note decision grid
 - **slice grid** — jump granularity: 1/32, 1/64 or 1/128 of the loop
